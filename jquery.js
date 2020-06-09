@@ -69,7 +69,7 @@ function addhearts()
     $("#trials").empty();
     for(i=0;i<trialsleft;i++)
          {
-             $("#trials").append('<img src="images/heart.png" class="life">');
+             $("#trials").append('<img src="heart.png" class="life">');
          }   
 }
     
@@ -131,7 +131,7 @@ function startAction()
 
 function chooseFruit()
 {    x=Math.round(7*Math.random());
-    $("#fruit1").attr('src','images/' +fruits[x] +'.png');
+    $("#fruit1").attr('src',fruits[x] +'.png');
 }
  
 //stop dropping fruit
