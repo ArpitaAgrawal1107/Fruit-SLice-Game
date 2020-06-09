@@ -61,7 +61,7 @@ $("#fruit1").mouseover(function()
     $("#fruit1").hide("explode",500);
     
     //generate new fruit
-    setTimeout(startAction,500);
+    setTimeout(startAction,800);
 });
 
 function addhearts()
